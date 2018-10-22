@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Visualization Dashboard</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-gJWVjz180MvwCrGGkC4xE5FjhWkTxHIR/+GgT8j2B3KKMgh6waEjPgzzh7lL7JZT"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/styles.css" />
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">Visualization Dashboard</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon">Menu</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Plots
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="graph1.html">Max Temperature</a>
+                        <a class="dropdown-item" href="graph2.html">Humidity</a>
+                        <a class="dropdown-item" href="graph3.html">Coudiness</a>
+                        <a class="dropdown-item" href="graph4.html">Wind Speed</a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </nav>
+  <div class="container summary-container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h3>Wind Speed Summary</h3>
+        <img src="../Resources/assets/images/Fig4.png" alt="Landing Image" class="summary-img"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt dui sit amet lectus pretium, sit
+          amet tempus lorem porta. In mattis elit in purus fermentum, ut efficitur erat rhoncus. Nam eget felis quis
+          est aliquam tempus. In hac habitasse platea dictumst. Sed luctus ante sit amet tellus fringilla congue. Sed
+          pretium libero non lorem euismod, eget maximus nibh hendrerit. Donec ultrices hendrerit malesuada. Integer
+          sollicitudin vestibulum sapien, sit amet hendrerit urna mollis at. Donec id turpis vel nisi varius pretium a
+          sed sem. Mauris ac laoreet risus, vitae dictum nulla. Mauris a mattis odio. Maecenas eu urna eros. Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-lg-4">
+     <h4>Visualizations</h4>
+     <div class="images-container">
+        <img src="../Resources/assets/images/Fig1.png" alt="Landing Image" class="visual-preview-img"/>
+        <img src="../Resources/assets/images/Fig2.png" alt="Landing Image" class="visual-preview-img"/>
+        <img src="../Resources/assets/images/Fig3.png" alt="Landing Image" class="visual-preview-img"/>
+        <img src="../Resources/assets/images/Fig4.png" alt="Landing Image" class="visual-preview-img"/>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
